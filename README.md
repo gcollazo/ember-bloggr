@@ -3,6 +3,8 @@ This is an Ember demo application based on the app made by [Tom Dale](https://tw
 
 This version of the app was made using the [Brunch with Ember Reloaded](https://github.com/gcollazo/brunch-with-ember-reloaded) skeleton for [Brunch](http://brunch.io).
 
+**Demo**: [ember-bloggr](http://dev.gcollazo.com/ember-bloggr)
+
 ## Start here
 Get Brunch.
 
