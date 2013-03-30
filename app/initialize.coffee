@@ -35,7 +35,7 @@ require 'fixtures/posts'
 require 'controllers/PostController'
 
 
-# ===== Handlebars Helpers =====
+# ===== Template Helpers =====
 require 'helpers/date'
 require 'helpers/markdown'
 
