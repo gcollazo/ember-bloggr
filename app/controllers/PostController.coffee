@@ -1,6 +1,6 @@
 App = require 'app'
 
-App.PostController = Ember.ObjectController.extend
+module.exports = App.PostController = Ember.ObjectController.extend
     isEditing: no
 
     doneEditing: ->

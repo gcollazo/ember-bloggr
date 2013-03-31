@@ -1,6 +1,6 @@
 App = require 'app'
 
-App.Post = DS.Model.extend
+module.exports = App.Post = DS.Model.extend
     title: DS.attr 'string'
     author: DS.attr 'string'
     intro: DS.attr 'string'

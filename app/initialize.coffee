@@ -28,9 +28,6 @@ require 'models/Post'
 require 'fixtures/posts'
 
 
-# ===== Views =====
-
-
 # ===== Controllers =====
 require 'controllers/PostController'
 

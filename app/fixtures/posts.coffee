@@ -1,6 +1,6 @@
 App = require 'app'
 
-App.Post.FIXTURES = [
+module.exports = App.Post.FIXTURES = [
     id: 1
     title: 'Da Book'
     author: 'John Doe'
