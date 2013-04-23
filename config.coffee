@@ -7,31 +7,24 @@ exports.config =
             joinTo:
                 'javascripts/app.js': /^app/
                 'javascripts/vendor.js': /^vendor/
-                'test/javascripts/test.js': /^test[\\/](?!vendor)/
-                'test/javascripts/test-vendor.js': /^test[\\/](?=vendor)/
+                'test/javascripts/test-vendor.js': /^test(\/|\\)(?=vendor)/
 
             order:
                 before: [
                     'vendor/scripts/console-polyfill.js'
                     'vendor/scripts/jquery-1.9.1.js'
                     'vendor/scripts/handlebars-1.0.rc.3.js'
-                    'vendor/scripts/ember-1.0.0-rc.2.js'
-                    'vendor/scripts/ember-data-master.js'
+                    'vendor/scripts/ember-1.0.0-rc.3.js'
+                    'vendor/scripts/ember-data-latest.js'
                     'vendor/scripts/moment.js'
                     'vendor/scripts/showdown.js'
-                ]
-                after: [
-                    'test/vendor/scripts/test-helper.js'
                 ]
 
         stylesheets:
             joinTo:
                 'stylesheets/app.css': /^(app|vendor)/
-                'test/stylesheets/test.css': /^test/
             order:
-                before: [
-                    'vandor/styles/bootstrap.css'
-                ]
+                before: ['vandor/styles/bootstrap.css']
 
         templates:
             precompile: true
